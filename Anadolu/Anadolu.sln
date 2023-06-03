@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anadolu", "Anadolu\Anadolu.csproj", "{4A7BCC4D-65F6-483A-BDA4-516AEC80D27E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A7BCC4D-65F6-483A-BDA4-516AEC80D27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7BCC4D-65F6-483A-BDA4-516AEC80D27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7BCC4D-65F6-483A-BDA4-516AEC80D27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7BCC4D-65F6-483A-BDA4-516AEC80D27E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD4C5F8E-CE32-458D-ADFF-7E0E4068E3BB}
+	EndGlobalSection
+EndGlobal

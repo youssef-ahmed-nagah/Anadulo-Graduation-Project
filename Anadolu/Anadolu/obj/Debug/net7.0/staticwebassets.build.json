@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "2w88Puf1x+IP++sg5B8qrtnP0wRq/bRb0TtCJFrPXsQ=",
+  "Source": "Anadolu",
+  "BasePath": "_content/Anadolu",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Anadolu\\wwwroot",
+      "Source": "Anadolu",
+      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\King.jpg",
+      "SourceId": "Anadolu",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "RelativePath": "images/King.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\King.jpg"
+    },
+    {
+      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph2.jpg",
+      "SourceId": "Anadolu",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "RelativePath": "images/ph2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ph2.jpg"
+    },
+    {
+      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph3.jpg",
+      "SourceId": "Anadolu",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "RelativePath": "images/ph3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ph3.jpg"
+    }
+  ]
+}

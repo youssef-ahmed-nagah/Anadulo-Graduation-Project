@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\King.jpg",
+      "PackagePath": "staticwebassets\\images\\King.jpg"
+    },
+    {
+      "Id": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph2.jpg",
+      "PackagePath": "staticwebassets\\images\\ph2.jpg"
+    },
+    {
+      "Id": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph3.jpg",
+      "PackagePath": "staticwebassets\\images\\ph3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Anadolu.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Anadolu.props",
+      "PackagePath": "build\\Anadolu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Anadolu.props",
+      "PackagePath": "buildMultiTargeting\\Anadolu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Anadolu.props",
+      "PackagePath": "buildTransitive\\Anadolu.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
