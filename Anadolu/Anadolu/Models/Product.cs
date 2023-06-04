@@ -12,8 +12,6 @@ namespace Anadolu.Models
         public string Description { get; set; }
         public string ImagePath { get; set; }
 
-        [DefaultValue(0)]
-        public float Offer { get; set; }
 
         public int SubCategoryId { get; set; }
         [ForeignKey("SubCategoryId")]

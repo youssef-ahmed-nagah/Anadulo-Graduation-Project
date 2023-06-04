@@ -23,5 +23,6 @@ namespace Anadolu.Models
         public DbSet<User> Users { get; set; }
         public DbSet<ContactUs> ContactUs { get; set; }
 
+        public DbSet<Discount> Discounts { get; set; }
     }
 }

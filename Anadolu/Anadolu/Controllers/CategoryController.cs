@@ -21,6 +21,7 @@ namespace Anadolu.Controllers
             host = _host;
         }
 
+        [HttpPost]
         public async Task<IActionResult> AddCategory([FromForm] CategoryDTO catDTO)
         {
             ResultDTO result = new ResultDTO();
@@ -32,7 +33,7 @@ namespace Anadolu.Controllers
                 UploaderImage up=new UploaderImage(host);
                 string fileName = await up.Uploade(catDTO.File);
 
-                category.ImagePath = "http://localhost:5292/images/" + fileName;
+                category.ImagePath = "http://localhost:5194/images/" + fileName;
                 unit.CategoryRepository.Add(category);
 
                 result.Data = catDTO;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2w88Puf1x+IP++sg5B8qrtnP0wRq/bRb0TtCJFrPXsQ=",
+  "Hash": "jSrrdEXx5vra+XsWwkmuF0aVBI907W56uT5n114AV2s=",
   "Source": "Anadolu",
   "BasePath": "_content/Anadolu",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\King.jpg"
+    },
+    {
+      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\MyLogo.jpg",
+      "SourceId": "Anadolu",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "RelativePath": "images/MyLogo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MyLogo.jpg"
     },
     {
       "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph2.jpg",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ph3.jpg"
+    },
+    {
+      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph4.jpg",
+      "SourceId": "Anadolu",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "RelativePath": "images/ph4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ph4.jpg"
     }
   ]
 }

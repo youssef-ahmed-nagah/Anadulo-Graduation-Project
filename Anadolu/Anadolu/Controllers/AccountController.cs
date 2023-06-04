@@ -34,6 +34,7 @@ namespace Anadolu.Controllers
         [HttpPost("register")]//api/account/register
         public async Task<IActionResult> Register([FromForm]RegisterDTO userDTO)
         {
+            ResultDTO resultDTO = new ResultDTO();
             if (ModelState.IsValid)
             {
                 //create  ==>add user db
@@ -43,40 +44,55 @@ namespace Anadolu.Controllers
                 userModel.Email = userDTO.Email;
                 userModel.UserName = userDTO.UserName;
                 userModel.PhoneNumber= userDTO.PhoneNumber;
-
                 userModel.BirthDate = userDTO.BirthDate;
                 userModel.Gender = userDTO.Gender;
-
                 string fileName = string.Empty;
                 if (userDTO.File == null || userDTO.File.Length == 0)
                 {
                     return BadRequest(new { IsPassed = false, Data = "No File Selected" });
                 }
-
                 string myUpload = Path.Combine(host.WebRootPath, "images");
                 fileName = userDTO.File.FileName;
                 string fullPath = Path.Combine(myUpload, fileName);
-
                 using (var stream = new FileStream(fullPath, FileMode.Create))
                 {
                     await userDTO.File.CopyToAsync(stream);
                 }
 
-                userModel.ImagePath = "http://localhost:54099/images/" + fileName;
-
+                userModel.ImagePath = "http://localhost:5194/images/" + fileName;
                 IdentityResult result = await userManager.CreateAsync(userModel, userDTO.Password);
                 if (result.Succeeded)
                 {
                     await userManager.AddToRoleAsync(userModel,"User");
+                    User user = new User();
 
-                    return Ok(new { isPassed = true, Data = userModel});
+                    //Another Action
+                    ///////////////////////////////////////////////
+                    user.ApplicationUserId = userModel.Id;
+                    user.ImagePath = userModel.ImagePath;
+                    user.Phone = userModel.PhoneNumber;
+                    user.LastName = userModel.LastName;
+                    user.FirstName = userModel.FirstName;
+                    unit.UserRepository.Add(user);
+                    
+                    Cart cart = new Cart();
+                    cart.UserId = userModel.Id;
+                    unit.CartRepository.Add(cart);
+
+                    //user.CardType = userDTO.CardType;
+
+                    resultDTO.Data = userModel;
+                    resultDTO.IsPassed= true;
+                    return Ok(resultDTO);
                 }
                 else
                 {
                     return BadRequest(new { IsPassed = false, Data = userModel });
                 }
             }
-            return BadRequest(ModelState);
+            resultDTO.IsPassed = true;
+            resultDTO.Data = ModelState;
+            return BadRequest(resultDTO);
         }
 
         //[HttpPost("userregister")]

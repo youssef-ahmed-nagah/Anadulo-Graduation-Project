@@ -15,16 +15,17 @@ namespace Anadolu.Models
         public string? ImagePath { get; set; }
 
         //ممكن نعمله جدول بالانواع الثابتة اللي هستخدمها 
-        public string CardType { get; set; }
+        public string? CardType { get; set; }
         
         [MinLength(12)]
         [MaxLength(12)]
+
         [NumbersOnly(ErrorMessage = "The property must contain only numeric values.")]
-        public string CardNumber { get; set; }
+        public string? CardNumber { get; set; }
 
-        public int SecurityKey { get; set; }
+        public int? SecurityKey { get; set; }
 
-        public DateTime ExpirationDate { get; set; }
+        public DateTime? ExpirationDate { get; set; }
 
         [ForeignKey("ApplicationUserId")]
         public virtual ApplicationUser ApplicationUser { get; set; }

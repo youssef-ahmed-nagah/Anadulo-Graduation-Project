@@ -5,36 +5,39 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
-
 namespace Anadolu.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SubCategoryController : ControllerBase
+    public class ProductController : ControllerBase
     {
         private readonly IUnitOfWork unit;
         private readonly IHostingEnvironment host;
-        public SubCategoryController(IUnitOfWork _unit, IHostingEnvironment _host)
+        public ProductController(IUnitOfWork _unit, IHostingEnvironment _host)
         {
             unit = _unit;
             host = _host;
         }
+
         [HttpPost]
-        public async Task<IActionResult> AddSubCategory([FromForm] CategoryDTO subCatDTO)
+        public async Task<IActionResult> AddProduct(ProductDTO productDTO)
         {
             ResultDTO result = new ResultDTO();
             if (ModelState.IsValid)
             {
-                SubCategory subCategory = new SubCategory();
-                subCategory.Name = subCatDTO.Name;
+                Product product = new Product(); 
+                product.Name = productDTO.Name;
+                product.Description = productDTO.Description;
+                product.Quantity = productDTO.Quantity;
+                product.Price = productDTO.Price;
 
                 UploaderImage up = new UploaderImage(host);
-                string fileName = await up.Uploade(subCatDTO.File);
+                string fileName = await up.Uploade(productDTO.File);
 
-                subCategory.ImagePath = "http://localhost:5194/images/" + fileName;
-                unit.SubCategoryRepository.Add(subCategory);
+                product.ImagePath = "http://localhost:5194/images/" + fileName;
+                unit.ProductRepository.Add(product);
 
-                result.Data = subCatDTO;
+                result.Data = productDTO;
                 result.IsPassed = true;
                 return Ok(result);
             }
