@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Anadolu.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230523195536_init")]
-    partial class init
+    [Migration("20230605121947_iiii")]
+    partial class iiii
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -178,6 +178,50 @@ namespace Anadolu.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("Anadolu.Models.ContactUs", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ContactUs");
+                });
+
+            modelBuilder.Entity("Anadolu.Models.Discount", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<double>("Value")
+                        .HasColumnType("float");
+
+                    b.HasKey("ProductId");
+
+                    b.ToTable("Discounts");
+                });
+
             modelBuilder.Entity("Anadolu.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -257,9 +301,6 @@ namespace Anadolu.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<float>("Offer")
-                        .HasColumnType("real");
 
                     b.Property<float>("Price")
                         .HasColumnType("real");
@@ -432,11 +473,13 @@ namespace Anadolu.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CardNumber")
-                        .IsRequired()
                         .HasMaxLength(12)
                         .HasColumnType("nvarchar(12)");
 
-                    b.Property<DateTime>("ExpirationDate")
+                    b.Property<string>("CardType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ExpirationDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("FirstName")
@@ -457,7 +500,7 @@ namespace Anadolu.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SecurityKey")
+                    b.Property<int?>("SecurityKey")
                         .HasColumnType("int");
 
                     b.HasKey("ApplicationUserId");
@@ -618,6 +661,17 @@ namespace Anadolu.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Anadolu.Models.Discount", b =>
+                {
+                    b.HasOne("Anadolu.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Anadolu.Models.Order", b =>

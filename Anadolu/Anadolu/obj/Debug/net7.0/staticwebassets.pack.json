@@ -1,23 +1,27 @@
 {
   "Files": [
     {
-      "Id": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\King.jpg",
+      "Id": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\King.jpg",
       "PackagePath": "staticwebassets\\images\\King.jpg"
     },
     {
-      "Id": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\MyLogo.jpg",
+      "Id": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\MyLogo.jpg",
       "PackagePath": "staticwebassets\\images\\MyLogo.jpg"
     },
     {
-      "Id": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph2.jpg",
+      "Id": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\_Done.png",
+      "PackagePath": "staticwebassets\\images\\_Done.png"
+    },
+    {
+      "Id": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\ph2.jpg",
       "PackagePath": "staticwebassets\\images\\ph2.jpg"
     },
     {
-      "Id": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph3.jpg",
+      "Id": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\ph3.jpg",
       "PackagePath": "staticwebassets\\images\\ph3.jpg"
     },
     {
-      "Id": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph4.jpg",
+      "Id": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\ph4.jpg",
       "PackagePath": "staticwebassets\\images\\ph4.jpg"
     },
     {

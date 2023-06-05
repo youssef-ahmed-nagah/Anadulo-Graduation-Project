@@ -35,6 +35,10 @@ namespace Anadolu.Repository
             SubCategoryRepository = new SubCategoryRepository(Context);
 
             UserRepository = new UserRepository(Context);
+
+            DiscountRepository = new DiscountRepository(Context);
+
+
         }
 
         public IAdminRepository AdminRepository { get; set; }
@@ -62,6 +66,7 @@ namespace Anadolu.Repository
         public ISubCategoryRepository SubCategoryRepository { get; set; }
 
         public IUserRepository UserRepository { get; set; }
+        public IDiscountRepository DiscountRepository { get; set; }
 
         public int CommitChanges()
         {

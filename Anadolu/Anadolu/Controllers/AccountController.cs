@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
-using Anadolu.Migrations;
+
 using Anadolu.Models;
 using Anadolu.Repository.Base;
 using System.IdentityModel.Tokens.Jwt;

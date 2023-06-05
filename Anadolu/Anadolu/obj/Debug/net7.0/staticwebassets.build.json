@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jSrrdEXx5vra+XsWwkmuF0aVBI907W56uT5n114AV2s=",
+  "Hash": "6dp8OYa5Q0DWRgSS1MtdENGPZKVnIOgLh6y8ToMFil4=",
   "Source": "Anadolu",
   "BasePath": "_content/Anadolu",
   "Mode": "Default",
@@ -10,17 +10,34 @@
     {
       "Name": "Anadolu\\wwwroot",
       "Source": "Anadolu",
-      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "ContentRoot": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\",
       "BasePath": "_content/Anadolu",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\King.jpg",
+      "Identity": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\_Done.png",
       "SourceId": "Anadolu",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "ContentRoot": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\",
+      "BasePath": "_content/Anadolu",
+      "RelativePath": "images/_Done.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\_Done.png"
+    },
+    {
+      "Identity": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\King.jpg",
+      "SourceId": "Anadolu",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\",
       "BasePath": "_content/Anadolu",
       "RelativePath": "images/King.jpg",
       "AssetKind": "All",
@@ -34,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\King.jpg"
     },
     {
-      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\MyLogo.jpg",
+      "Identity": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\MyLogo.jpg",
       "SourceId": "Anadolu",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "ContentRoot": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\",
       "BasePath": "_content/Anadolu",
       "RelativePath": "images/MyLogo.jpg",
       "AssetKind": "All",
@@ -51,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\MyLogo.jpg"
     },
     {
-      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph2.jpg",
+      "Identity": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\ph2.jpg",
       "SourceId": "Anadolu",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "ContentRoot": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\",
       "BasePath": "_content/Anadolu",
       "RelativePath": "images/ph2.jpg",
       "AssetKind": "All",
@@ -68,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ph2.jpg"
     },
     {
-      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph3.jpg",
+      "Identity": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\ph3.jpg",
       "SourceId": "Anadolu",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "ContentRoot": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\",
       "BasePath": "_content/Anadolu",
       "RelativePath": "images/ph3.jpg",
       "AssetKind": "All",
@@ -85,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ph3.jpg"
     },
     {
-      "Identity": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\images\\ph4.jpg",
+      "Identity": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\images\\ph4.jpg",
       "SourceId": "Anadolu",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\wwwroot\\",
+      "ContentRoot": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\wwwroot\\",
       "BasePath": "_content/Anadolu",
       "RelativePath": "images/ph4.jpg",
       "AssetKind": "All",

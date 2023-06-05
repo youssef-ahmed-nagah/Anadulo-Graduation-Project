@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\Anadolu.csproj": {}
+    "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\Anadolu.csproj": {}
   },
   "projects": {
-    "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\Anadolu.csproj": {
+    "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\Anadolu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\Anadolu.csproj",
+        "projectUniqueName": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\Anadolu.csproj",
         "projectName": "Anadolu",
-        "projectPath": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\Anadolu.csproj",
-        "packagesPath": "C:\\Users\\welcome\\.nuget\\packages\\",
-        "outputPath": "F:\\_AllProjects\\Graduation Project\\v1\\Anadolu\\Anadolu\\obj\\",
+        "projectPath": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\Anadolu.csproj",
+        "packagesPath": "C:\\Users\\engah\\.nuget\\packages\\",
+        "outputPath": "E:\\final graduation project\\Anadulo-Graduation-Project\\Anadolu\\Anadolu\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\welcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\engah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "F:\\16_WPF\\Project2V1\\Package Source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,5 @@
 ﻿using Anadolu.DTO;
-using Anadolu.Migrations;
+
 using Anadolu.Models;
 using Anadolu.Repository;
 using Anadolu.Repository.Base;

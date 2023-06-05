@@ -205,13 +205,13 @@ namespace Anadolu.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DiscountEndDate")
+                    b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DiscountStartDate")
+                    b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<double>("DiscountValue")
+                    b.Property<double>("Value")
                         .HasColumnType("float");
 
                     b.HasKey("ProductId");

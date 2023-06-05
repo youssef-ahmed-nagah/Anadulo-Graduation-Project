@@ -11,11 +11,11 @@ namespace Anadolu.Models
         [Key]
         public int ProductId { get; set; }
 
-        public DateTime DiscountStartDate { get; set; }
+        public DateTime StartDate { get; set; }
 
-        public double DiscountValue { get; set; }
+        public double Value { get; set; }
 
-        public DateTime DiscountEndDate { get; set; }
+        public DateTime EndDate { get; set; }
 
         [ForeignKey("ProductId")]
         public virtual Product? Product { get; set; }

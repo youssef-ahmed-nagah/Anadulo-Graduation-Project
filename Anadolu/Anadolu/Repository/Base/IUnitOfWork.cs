@@ -17,6 +17,7 @@ namespace Anadolu.Repository.Base
         IReturnProductOrderRepository ReturnProductOrderRepository { get; set; }
         ISubCategoryRepository SubCategoryRepository { get; set; }
         IUserRepository UserRepository { get; set; }
+        IDiscountRepository DiscountRepository { get; set; }
 
         int CommitChanges();
     }
